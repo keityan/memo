@@ -40,7 +40,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <p><br/>
-      <a href="https://01234567890.thebase.in/">← Back to home</a>
+      <a href="https://01234567890.thebase.in/about">← Back to home</a>
       </p>
     </Layout>
   )
