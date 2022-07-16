@@ -21,11 +21,7 @@ export default function Home({ allPostsData }) {
       <title>{siteTitle}</title>
     </Head>
     <section className={utilStyles.headingMd}>
-      <p>[Your Self Introduction]</p>
-      <p>
-        (This is a sample website - you’ll be building a site like this on{' '}
-        <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-      </p>
+      <p>ブログの説明</p>
     </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}></h2>
@@ -43,6 +39,9 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      <p><br/>
+      <a href="https://01234567890.thebase.in/">← Back to home</a>
+      </p>
     </Layout>
   )
 }
