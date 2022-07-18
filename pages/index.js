@@ -21,7 +21,7 @@ export default function Home({ allPostsData }) {
       <title>{siteTitle}</title>
     </Head>
     <section className={utilStyles.headingMd}>
-      <p>ブログの説明</p>
+      <p>ありがとうございます。</p>
     </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}></h2>
@@ -32,15 +32,12 @@ export default function Home({ allPostsData }) {
                 <a>{title}</a>
               </Link>
               <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
             </li>
           ))}
         </ul>
       </section>
       <p><br/>
-      <a href="https://01234567890.thebase.in/about">← Back to home</a>
+      <a href="https://01234567890.thebase.in/about">⇐</a>
       </p>
     </Layout>
   )

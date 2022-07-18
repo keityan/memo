@@ -28,7 +28,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to top</a>
+            <a>← トップページへ</a>
           </Link>
         </div>
       )}
