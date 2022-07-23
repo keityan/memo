@@ -7,7 +7,7 @@
 }
 
 .headingXl {
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: -0.05rem;
@@ -22,7 +22,7 @@
 
 .headingMd {
   font-size: 1.2rem;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 .borderCircle {
@@ -34,7 +34,7 @@
 }
 
 .padding1px {
-  padding-top: 1px;
+  padding-top: 1px
 }
 
 .list {
