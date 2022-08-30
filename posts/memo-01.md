@@ -1,0 +1,8 @@
+---
+title: 'たいとる'
+date: '2023-01-01'
+---
+***
+
+***
+[ ↲ 戻る ](https://memo-tau.vercel.app/posts/memo)
