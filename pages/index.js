@@ -36,7 +36,6 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-      <p><a href="https://01234567890.thebase.in/about"><big> ↲ </big></a></p>
     </Layout>
   )
 }

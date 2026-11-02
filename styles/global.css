@@ -30,3 +30,15 @@ img {
   max-width: 100%;
   display: block;
 }
+
+img[src*='#center'] {
+    padding-top:  5px;
+    width: 33px;
+    display: block;
+    margin: auto;
+    opacity: 0.9;
+}
+
+img:hover[src*='#center'] {
+      opacity: 0.6;
+}
